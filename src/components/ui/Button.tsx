@@ -1,8 +1,8 @@
-import { cva } from "class-variance-authority";
 import { ComponentPropsWithoutRef, ReactNode } from "react";
-import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
 import { cn } from "../../lib/utils";
+import { cva } from "class-variance-authority";
 
 type ButtonProps = ComponentPropsWithoutRef<"button"> & {
   variant?: "primary" | "secondary" | "outline" | "ghost";
@@ -14,7 +14,7 @@ type ButtonProps = ComponentPropsWithoutRef<"button"> & {
 };
 
 const buttonVariants = cva(
-  "outline-none focus:ring-2 border rounded-md px-4 py-2 text-sm w-full transition font-semibold",
+  "outline-none focus:ring-2 border rounded-md px-4 py-2 text-sm  transition font-semibold",
   {
     variants: {
       variant: {
