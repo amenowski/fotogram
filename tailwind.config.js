@@ -8,6 +8,10 @@ export default {
         secondary: "#7DC95E",
         neautral: "#fff",
       },
+      fontFamily: {
+        dosis: ["Dosis", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
