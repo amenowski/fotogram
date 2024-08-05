@@ -1,5 +1,12 @@
+import SignupForm from "../features/auth/SignupForm";
+
 export default function Signup() {
   return (
-    <div>Signup</div>
-  )
+    <section className="w-full h-screen flex justify-center py-[8rem]">
+      <div className="max-w-[30rem] w-full px-4 mx-auto">
+        <h1 className="text-4xl font-semibold text-center mb-8">Signup</h1>
+        <SignupForm />
+      </div>
+    </section>
+  );
 }
